@@ -3,12 +3,34 @@
   <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Black Jack</title>
+    <title>All Cards On Deck</title>
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="stylesheet" href="/screen.css">
   </head>
   <body>
-    <h1 class='hello-world'></h1>
+    <h1 class='hello-world'>All Cards on Deck</h1>
+    <section class='card-decks'>
+    <section class="deck-of-cards-facedown">Deal a Card</section>
+    <section class='deck-of-cards-faceup'>
+      <ul class='player-hand'> 
+        <li class='card-dealt-list'>
+          <p class='card-dealt-value player-1-score'></p>
+        </li>
+      </ul>
+    </section>
+    <section class='dealer-cards-facedown'>  
+      <ul class='dealer-hand'>  
+        <li class='card-2-dealt-list'>
+              <p class='card-dealt-value player-2-score'></p>
+            </li>
+          </ul>
+    </section>
+  </section>
+  <section class='hit-stand-buttons'>
+    <button class='hit-me-button'>Hit Me</button>
+    <button class='stand-button'>Stay</button>
+    <button class='reset-button'>Reset</button>
+  </section>
     <script src="/main.js" charset="utf-8"></script>
   </body>
 </html>
